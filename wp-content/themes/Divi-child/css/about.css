@@ -1,0 +1,221 @@
+/* /* /* @font-face {
+    font-family: Bad-Grunge;
+    src: url("BAD GRUNGE.ttf");
+} */
+
+
+
+
+/* ===================================================================== */
+
+/* .rte-setting a:not(.rte__image):not(.btn):not(.spr-summary-actions-newreview), .rte a:not(.rte__image):not(.btn):not(.spr-summary-actions-newreview) {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    border-bottom-color: #00000026;
+    position: relative;
+    display: inline-block;
+}
+.rte-setting a, .rte a {
+    text-decoration: none;
+}
+.rte a, .shopify-email-marketing-confirmation__container a, .shopify-policy__container a {
+    color: #000;
+    color: var(--colorLink);
+}
+.text-link, a {
+    font-size: 18px;
+    color: #000;
+    color: var(--colorTextBody);
+    text-decoration: none;
+    background: transparent;
+}
+*, :after, :before, input {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.text-left {
+    text-align: left!important;
+}
+
+
+
+/* ============================================= */
+
+/* h1{
+    font-family: Georgia serif;
+    font-size: 20px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+*, :after, :before, input {
+    box-sizing: border-box;
+}*/
+.team 1 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}/*
+li {
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    margin: 0 0 15px 30px;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+.slide{
+    animation: .8s cubic-bezier(.26,.54,.32,1) .3s forwards;
+    animation-name: rise-up;
+}
+.insta-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    background-color: #f5ee7e;
+    
+}
+
+
+.instagram-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: flex-end;
+    background-color: #f5ee7e;
+    top: -50px;
+}
+.insta-box{
+    aspect-ratio: 1/1;
+}  */
+
+
+
+
+/* ################################################################################# */
+@keyframes rise-up{
+    0% {
+        opacity: 1;
+        transform: translateY(120%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+    .about h1{
+        animation-name: rise-up;
+        animation-duration: 1.5s;
+        animation-delay: 0.5s;
+    }
+
+#logo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin: 30px;
+    line-height: 1.55555
+}
+
+.founded h1{
+    margin-bottom: 30px;
+}
+
+.link a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.link a:hover::after{
+    content: '';
+    height: 2px;
+    width: 50%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.impact h1{
+    margin-bottom: 20px;
+}
+
+.impact a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.impact a:hover::after{
+    content: '';
+    height: 2px;
+    width: 50%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.team1 a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.team2 a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.team1 a:hover::after{
+    content: '';
+    height: 2px;
+    width: 50%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+.team2 a:hover::after{
+    content: '';
+    height: 2px;
+    width: 50%;
+    background-color: black;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+
+.team1{
+    left: -180px;
+}
+.team2{
+    left: 70px;
+}
+.team1 img{
+    top: -60px;
+    width: 600px;
+    height: 600px;
+}
+.team2 img{
+    top: -60px;
+    left: -60px;
+    width: 600px;
+    height: 600px;
+}

@@ -1,0 +1,12 @@
+2023-04-15T06:23:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\themes\Divi\core\components\CompatibilityWarning.php on line 9
+
+2023-04-15T06:23:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\themes\Divi\core\components\CompatibilityWarning.php on line 9
+
+2023-04-15T06:23:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\themes\Divi\core\components\CompatibilityWarning.php on line 9
+
+2023-04-15T06:23:50+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\functions.php on line 6620
+
+2023-04-15T06:24:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\assets\client\admin\app\index.asset.php on line 1
+
+2023-04-15T14:43:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractBlock.php on line 65
+

@@ -1,0 +1,10 @@
+.pics2{
+    width: 200px;
+    height: 200px;
+    margin-top: 6px;
+}
+.pics2:hover{
+   width: 250px;
+   height: 150px;
+}
+

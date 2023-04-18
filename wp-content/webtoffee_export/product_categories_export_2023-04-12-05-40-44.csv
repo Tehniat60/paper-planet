@@ -1,0 +1,28 @@
+﻿term_id,name,slug,description,display_type,parent,thumbnail
+15,"All Products",all-products,,default,0,
+16,Planners,planners,,default,0,http://localhost/rainbow_vision/wp-content/uploads/2023/04/IMG_4005_540x.jpg
+17,"Notebooks & Journals",notebooks-journals,,default,15,http://localhost/rainbow_vision/wp-content/uploads/2023/04/space_rainbow_360x.jpg
+18,"Greeting Cards",greeting-cards,,default,15,http://localhost/rainbow_vision/wp-content/uploads/2023/04/IMG_3667_2_360x.jpg
+19,Gifts,gifts,,default,15,http://localhost/rainbow_vision/wp-content/uploads/2023/04/rainbow-vision_logo-seal_black_360x.jpg
+20,"Wire Bound Planners",wire-bound-planners,,default,16,http://localhost/rainbow_vision/wp-content/uploads/2023/04/ACS_1138_600x600.jpg
+21,"6 Month Weekly Planners",6-month-weekly-planners,,default,16,http://localhost/rainbow_vision/wp-content/uploads/2023/04/ezgif.com-webp-to-jpg.jpg
+23,Notebooks,notebooks,,default,17,http://localhost/rainbow_vision/wp-content/uploads/2023/04/notebooks.jpg
+24,Journals,journals,,default,17,http://localhost/rainbow_vision/wp-content/uploads/2023/04/journals.jpg
+25,Bookmarks,bookmarks,,default,17,http://localhost/rainbow_vision/wp-content/uploads/2023/04/bookmarks.jpg
+26,Notepads,notepads,,default,17,http://localhost/rainbow_vision/wp-content/uploads/2023/04/notepads.jpg
+27,Stickers,stickers,,default,17,http://localhost/rainbow_vision/wp-content/uploads/2023/04/stickers.jpg
+28,"12 Month View Planner",12-month-view-planner,,default,16,
+29,"Today Planner",today-planner,,default,16,
+30,"Shop All Planners",shop-all-planners,,default,16,
+31,Birthday,birthday,,default,18,http://localhost/rainbow_vision/wp-content/uploads/2023/04/birthday.jpg
+32,"Love & Friendship",love-friendship,,default,18,http://localhost/rainbow_vision/wp-content/uploads/2023/04/love-friendship.jpg
+33,"Thank You",thank-you,,default,18,http://localhost/rainbow_vision/wp-content/uploads/2023/04/thankyou.jpg
+34,Congratulations,congratulations,,default,18,
+35,Holiday,holiday,,default,18,
+36,Sympathy,sympathy,,default,18,
+37,"Boxed Cards",boxed-cards,,default,18,
+38,"All Greeting Cards",all-greeting-cards,,default,18,
+39,"Art Prints",art-prints,,default,19,http://localhost/rainbow_vision/wp-content/uploads/2023/04/art-prints.jpg
+40,Totes,totes,,default,19,http://localhost/rainbow_vision/wp-content/uploads/2023/04/totes.jpg
+41,"Universal Cloths",universal-cloths,,default,19,http://localhost/rainbow_vision/wp-content/uploads/2023/04/universal-cloths.jpg
+42,"Best Sellers",best-sellers,,default,15,

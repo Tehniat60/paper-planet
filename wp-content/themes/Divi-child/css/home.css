@@ -1,0 +1,19 @@
+@keyframes rise-up{
+0% {
+    opacity: 1;
+    transform: translateY(120%);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+.header-content{
+    animation-name: rise-up;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+}
+
+.believe h2{
+    margin-bottom: 30px;
+}
