@@ -1,0 +1,56 @@
+2023-04-24T00:10:49+00:00 CRITICAL Uncaught TypeError: Automattic\WooCommerce\GoogleListingsAndAds\Admin\BulkEdit\BulkEditInitializer::bulk_edit_hook(): Argument #2 ($post) must be of type WP_Post, null given, called in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\class-wp-hook.php on line 310 and defined in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\google-listings-and-ads\src\Admin\BulkEdit\BulkEditInitializer.php:34
+Stack trace:
+#0 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\GoogleListingsAndAds\Admin\BulkEdit\BulkEditInitializer->bulk_edit_hook(1500, NULL)
+#1 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\post.php(4717): do_action('save_post', 1500, NULL, true)
+#4 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\post.php(4819): wp_insert_post(Array, false, true)
+#5 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-admin\includes\post.php(1925): wp_update_post(Array)
+#6 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\themes\Divi\includes\builder\core.php(2256): wp_create_post_autosave(Array)
+#7 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\themes\Divi\includes\builder\core.php(2399): et_fb_autosave(Array)
+#8 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\class-wp-hook.php(310): et_fb_heartbeat_autosave(Array, Array)
+#9 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#10 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-admin\includes\ajax-actions.php(3465): apply_filters('heartbeat_recei...', Array, Array, 'front')
+#11 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\class-wp-hook.php(308): wp_ajax_heartbeat('')
+#12 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#13 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#14 C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-admin\admin-ajax.php(188): do_action('wp_ajax_heartbe...')
+#15 {main}
+  thrown in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\google-listings-and-ads\src\Admin\BulkEdit\BulkEditInitializer.php on line 34
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:55+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:11:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:12:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T15:12:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Admin\Loader.php on line 54
+
+2023-04-24T16:49:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\includes\wc-deprecated-functions.php on line 52
+
+2023-04-24T18:04:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\google-listings-and-ads\vendor\guzzlehttp\guzzle\src\Utils.php on line 88
+
+2023-04-24T18:04:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-content\plugins\woocommerce\src\Internal\Features\FeaturesController.php on line 459
+
+2023-04-24T18:06:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\Users\Lenovo\Desktop\wordpress\htdocs\rainbow_vision\wp-includes\blocks\blocks-json.php on line 1
+

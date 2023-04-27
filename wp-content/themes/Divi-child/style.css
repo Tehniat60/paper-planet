@@ -13,3 +13,100 @@
  * Author: Rafael Azuaje
  * Disable this segment if you want to display horizontally
  */
+
+ .et_pb_testimonial_description_inner{
+    margin-top: 20px;
+ }
+
+ .et_pb_testimonial_author{
+    margin-top: 20px;
+ }
+ .strong-view.wpmtst-default .wpmtst-testimonial{
+   box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+   background-color: #fbf7f4;
+   width: 33%;
+ }
+ .strong-view.wpmtst-default.slider-container .wpmtst-testimonial:hover{
+   transform: scale(1.1);
+ }
+ 
+ .strong-view.wpmtst-default .wpmtst-testimonial-inner{
+   left: 0px;
+   width: 33%;
+   margin-right: 0;
+   z-index: 10;
+ }
+
+ .strong-view.wpmtst-default .wpmtst-testimonial-inner p{
+   text-align: center;
+   font-family: Arial;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 1.5em;
+   letter-spacing: 0.025em;
+   padding:30px;
+   height: auto;
+   cursor: grab;
+ }
+ .strong-view.wpmtst-default .wpmtst-testimonial-field{
+   text-align: center;
+   font-family: Arial;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 1.5em;
+   letter-spacing: 0.025em;
+   font: black;
+ }
+/* .strong-view.wpmtst-default div{
+   padding: 40px 0 55px
+ }*/
+ .woocommerce ul.products li.product a img:hover{
+    transform: scale(1.1);
+ }
+
+ .woocommerce ul.products li.product a img{
+  box-shadow: 5px 10px #888888;
+  border-radius: 20px;
+ }
+
+ .count{
+  display: none;
+ }
+ .woocommerce ul.products li.product .woocommerce-loop-category__title 
+ {
+    font-size: 20px;
+    font-family: Georgia;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    line-height: 1em;
+    margin: 30px 0 15px;
+    color: black;
+ }
+ .woocommerce ul.products li.product .woocommerce-loop-product__title{
+  font-size: 20px;
+    font-family: Georgia;
+    letter-spacing: 0.025em;
+    text-align: center;
+    line-height: 1em;
+    margin: 30px 0 15px;
+    color: black;
+ }
+ .woocommerce ul.products li.product .price{
+    font-size: 20px;
+    font-family: Georgia;
+    text-align: center;
+    letter-spacing: 0.025em;
+    line-height: 1em;
+    margin: 30px 0 15px;
+    color: black;
+ }
+ span .woocommerce-Price-amount{
+  font-size: 20px;
+  font-family: Georgia;
+  text-align: center;
+  letter-spacing: 0.025em;
+  line-height: 1em;
+  margin: 30px 0 15px;
+  color: black;
+}

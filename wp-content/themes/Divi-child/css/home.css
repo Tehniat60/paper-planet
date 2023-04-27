@@ -8,7 +8,7 @@
     transform: translateY(0);
 }
 }
-.header-content{
+.banner h1{
     animation-name: rise-up;
     animation-duration: 1.5s;
     animation-delay: 0.5s;
@@ -17,3 +17,55 @@
 .believe h2{
     margin-bottom: 30px;
 }
+.text-image-icons {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 10px;
+    top: -60px;
+}
+.text-icon {
+    width: 80px;
+    font-size: 10px;
+    font-family: Georgia;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 10px;
+    font-weight: bold;
+    color: black;
+    line-height: 1.3em;
+}
+
+.et_pb_gutters3 .et_pb_column_1_6, .et_pb_gutters3.et_pb_row .et_pb_column_1_6 .text-icon{
+    width: 8%;
+    margin-right: 2%;
+}
+
+/*.learn{
+    top: -70px;
+    left: -35px;
+}
+.shop-planner{
+    left: -330px;
+    top: -10px;
+}*/
+
+
+.home #main-header {
+    background-color: #14263000!important;
+    box-shadow: 0 0 0 rgba(0,0,0,.1);
+    position: absolute;
+    }
+     
+    .home #top-header {
+    background-color: #14263000!important;
+    background-image: none;
+    box-shadow: 0 0 0 rgba(0,0,0,.1);
+    position: absolute;
+    }
+
+    .home #page-container {
+    padding-top: 0px!important;
+    }
+     
+  
+   
