@@ -110,3 +110,44 @@
   margin: 30px 0 15px;
   color: black;
 }
+
+#wpcf7-f1710-p1872-o1{
+  background-color: #F0F0F0;
+   
+  border: 5px solid #666666;
+   
+  }
+  #wpcf7-f1710-p1872-o1 .wpcf7-form{
+  
+      text-align: center;
+  }
+  
+  #wpcf7-f1710-p1872-o1 .wpcf7-submit{
+    background: #000000;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 11px 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    width: 100px;
+  }
+  
+  #wpcf7-f1710-p1872-o1 input{
+  width: 50%;
+  margin: 10px;
+  font-family: arial;
+  color: #000000;
+  padding: 10px;
+  border: 1px solid;
+  margin: 15px;
+  }
+  #wpcf7-f1710-p1872-o1 .custom{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+  }
+  #wpcf7-f1710-p1872-o1 .field{
+    margin-left: 10px;
+  }

@@ -1,10 +1,10 @@
 === WooCommerce ===
-Contributors: automattic, mikejolley, jameskoster, claudiosanches, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski, wpmuguru, royho, barryhughes-1
+Contributors: automattic, mikejolley, jameskoster, claudiosanches, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski, wpmuguru, royho, barryhughes-1, leifsinger
 Tags: online store, ecommerce, shop, shopping cart, sell online, storefront, checkout, payments, woo, woo commerce, e-commerce, store
-Requires at least: 5.9
-Tested up to: 6.1
+Requires at least: 6.0
+Tested up to: 6.2
 Requires PHP: 7.2
-Stable tag: 7.5.1
+Stable tag: 7.6.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -163,12 +163,14 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
-= 7.5.1 2023-03-21 =
+= 7.6.1 2023-04-26 =
 
 **WooCommerce**
 
-* Fix - Fix no enforcing of min/max limits in quantity selector of variable products. [#36871](https://github.com/woocommerce/woocommerce/pull/36871)
-* Dev - Update column definitions with synonymous types to prevent dbDelta from trying to ALTER them on each install. [#37277](https://github.com/woocommerce/woocommerce/pull/37277)
-* Update - Update WooCommerce Blocks to 9.6.6. [#37298](https://github.com/woocommerce/woocommerce/pull/37298)
+* Fix - Fix regression in supporting nested date query arguments in HPOS. [#37827](https://github.com/woocommerce/woocommerce/pull/37827)
+* Fix - Sync up date_column_name default for orders table, between stats and table data. [#37927](https://github.com/woocommerce/woocommerce/pull/37927)
+* Fix - Revert "Change Variations form shown in Variations tab when there are no variations created (#36957)" [#37889](https://github.com/woocommerce/woocommerce/pull/37889)
+* Fix – Revert changes to use window.fetch in legacy cart JS [#37463](https://github.com/woocommerce/woocommerce/pull/37463)
+* Update - Update WooCommerce Blocks to 9.8.5 [#37921](https://github.com/woocommerce/woocommerce/pull/37921)
 
 [See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/trunk/changelog.txt).
